@@ -1,7 +1,7 @@
 /* Wordle UK Dictionary — Service Worker
    オフライン動作のためのキャッシュ。
    キャッシュ名のバージョンを上げると古いキャッシュが破棄され更新される。 */
-const CACHE = 'wordle-uk-v1';
+const CACHE = 'wordle-uk-v5';
 
 // SW自身の場所を基準にした相対パス（GitHub Pagesのサブパスでも動く）
 const ASSETS = [
